@@ -17,16 +17,6 @@ Built with **Next.js 15, React, and Tailwind CSS**.
 
 ---
 
-## 📸 Screenshots
-
-### Landing Page
-![Landing Page](./public/ss.jpg)
-
-### Gameplay
-![Game Board](./public/ssboard.jpg)
-
----
-
 ## 🛠️ Tech Stack
 - [Next.js 15](https://nextjs.org/) – React framework
 - [React](https://react.dev/) – UI library
