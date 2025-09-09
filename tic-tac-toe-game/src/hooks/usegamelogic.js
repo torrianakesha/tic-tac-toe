@@ -72,7 +72,7 @@ export const useGameLogic = () => {
           setGameMessage(`Player ${gameWinner} wins! 🎉`);
         } else if (newBoard.every(cell => cell !== null)) {
           setGameWon(true);
-          setGameMessage("It's a tie! 🤝");
+          setGameMessage("<p>It&apos;s a tie! 🤝");
         } else {
           setGameMessage(`Great match! Player ${currentPlayer} claims 2 squares!`);
         }
