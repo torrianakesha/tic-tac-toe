@@ -23,10 +23,13 @@ export default function GameBoard({ onBackToHome }) {
     isCardVisible
   } = useGameLogic();
 
-  // Initialize the game with shuffled cards when component mounts
-  useEffect(() => {
-    startNewGame();
-  }, []);
+// eslint-disable-next-line react-hooks/exhaustive-deps
+useEffect(() => {
+  startNewGame();
+}, []);
+
+
+
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-100 via-blue-50 to-indigo-100 p-4">
