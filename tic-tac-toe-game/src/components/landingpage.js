@@ -1,6 +1,7 @@
 // src/components/LandingPage.js
 import { Button } from './ui/button';
 import { Card, CardContent } from './ui/card';
+import Image from 'next/image';
 import { GamepadIcon, Play } from 'lucide-react';
 import Footer from './footer';
 
@@ -11,9 +12,13 @@ export default function LandingPage({ onStartGame }) {
         {/* Hero Section */}
         <div className="text-center mb-12">
           <div className="flex justify-center mb-6">
-            <div className="p-4 bg-white rounded-full shadow-lg">
-              <GamepadIcon className="w-16 h-16 text-purple-600" />
-            </div>
+            <Image
+              src="/gamelogo.png"
+              alt="Game Logo"
+              width={88}  
+              height={88}
+              className="rounded-full"
+            />
           </div>
           
           <h1 className="text-5xl font-bold bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent mb-4">
@@ -117,3 +122,11 @@ export default function LandingPage({ onStartGame }) {
     </div>
   );
 }
+
+// <Image 
+//                 src="/gamelogo.png"   // public path
+//                 alt="React Logo"
+//                 width={16}
+//                 height={16}
+//                 className="w-8 h-8"
+//               />
