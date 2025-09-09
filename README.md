@@ -17,16 +17,6 @@ Built with **Next.js 15, React, and Tailwind CSS**.
 
 ---
 
-## 📸 Screenshots
-
-### Landing Page
-![Landing Page](./public/ss.jpg)
-
-### Gameplay
-![Game Board](./public/ssboard.jpg)
-
----
-
 ## 🛠️ Tech Stack
 - [Next.js 15](https://nextjs.org/) – React framework
 - [React](https://react.dev/) – UI library
@@ -39,7 +29,7 @@ Built with **Next.js 15, React, and Tailwind CSS**.
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/your-username/tic-tac-toe-pairs.git
-cd tic-tac-toe-pairs
+cd tic-tac-toe-game
 ```
 ### 2. Install Dependencies
 ```
